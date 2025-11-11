@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GHSS Asbanr School</title>
+  <style>
+    body {
+      font-family: 'Noto Nastaliq Urdu', serif;
+      background-color: #f7fff7;
+      text-align: center;
+      color: #023b00;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0d7300;
+      color: white;
+      padding: 15px;
+      font-size: 22px;
+      border-radius: 0 0 10px 10px;
+    }
+
+    img.logo {
+      width: 120px;
+      height: auto;
+      border-radius: 50%;
+      margin: 15px auto;
+      display: block;
+    }
+
+    h2 {
+      color: #054b00;
+    }
+
+    button {
+      background-color: #0d7300;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      margin: 8px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+    }
+
+    button:hover {
+      background-color: #059600;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .section {
+      background-color: #eaffea;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 10px;
+      line-height: 1.8;
+    }
+
+    .gallery img {
+      width: 95%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px gray;
+    }
+
+    /* WhatsApp and Facebook fixed buttons */
+    .whatsapp-button, .facebook-button {
+      position: fixed;
+      bottom: 20px;
+      z-index: 999;
+      padding: 15px;
+      border-radius: 50%;
+      text-decoration: none;
+      color: white;
+      font-size: 24px;
+    }
+
+    .whatsapp-button {
+      right: 20px;
+      background-color: #25d366;
+    }
+
+    .facebook-button {
+      left: 20px;
+      background-color: #1877f2;
+    }
+
+    .facebook-button:hover {
+      background-color: #0e5ac6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    بِسْمِ اللّٰہِ الرَّحْمٰنِ الرَّحِیْم
+  </header>
+
+  <img src="https://sanishtech.com/i/6911e9ee7951f-1762781678.jpg" alt="School Logo" class="logo">
+
+  <h2>گورنمنٹ ہائیر سیکنڈری سکول اسبنڑ</h2>
+
+  <button onclick="showSection('teachers')">Teachers</button>
+  <button onclick="showSection('info')">School Info</button>
+  <button onclick="showSection('gallery')">Gallery</button>
+
+  <!-- Teachers Section -->
+  <div id="teachers" class="section hidden">
+    <h3>پرنسپل: ڈاکٹر رضا امین</h3>
+    <p>
+      1. سر نصار<br>
+      2. سر حنیف<br>
+      3. سر فداء اللہ<br>
+      4. سر امجد<br>
+      5. سر فضل حسین<br>
+      6. سر سعید محمد<br>
+      7. سر اشفاق<br>
+      8. سر جلال الدین<br>
+      9. سر سعید اللہ<br>
+      10. سر نیاز<br>
+      11. سر اقبال<br>
+      12. سر ابراہیم<br>
+      13. سر سید علی خان<br>
+      14. سر بھتیار زیب<br>
+      15. سر ابراہیم<br>
+      16. سر عبدالباقی<br>
+      17. سر ریاض<br>
+      18. سر حامد اکبر<br>
+      19. سر اورنگزیب<br>
+      20. سر گل زادہ
+    </p>
+  </div>
+
+
+<!-- Info Section -->
+<div id="info" class="section hidden">
+  <h3>School Information</h3>
+  
+  <h4>🖥️ Computer Room</h4>
+  <p>
+    ہمارا کمپیوٹر روم جدید طرز پر بنایا گیا ہے، جہاں طلبہ کو کمپیوٹر کی بنیادی تعلیم سے لے کر جدید آئی ٹی موضوعات جیسے MS Office, Typing Skills, Internet Use, Programming Basics سکھائے جاتے ہیں۔
+    یہ کمرہ ایر کنڈیشنڈ ہے اور ہر طالب علم کے لیے الگ کمپیوٹر مہیا کیا گیا ہے۔
+  </p>
+  
+  <h4>🔬 Science Lab</h4>
+  <p>
+    سائنس لیب میں Physics, Chemistry, Biology کے تجربات کے لیے مکمل سہولت فراہم کی گئی ہے۔ طلبہ مختلف تجربات خود کر کے سائنسی اصولوں کو بہتر طور پر سمجھتے ہیں۔
+    لیب میں Microscopes, Test Tubes, Chemical Apparatus, Models اور دیگر ضروری آلات موجود ہیں۔
+  </p>
+  
+  <h4>📚 Library</h4>
+  <p>
+    لائبریری میں اردو، انگریزی، سائنس، مطالعہ پاکستان، اور جنرل نالج سے متعلق سینکڑوں کتب دستیاب ہیں۔
+    طلبہ یہاں مطالعہ کرتے ہیں تاکہ وہ اپنی معلومات میں اضافہ کر سکیں۔ لائبریری میں پرسکون ماحول، میزیں اور کرسیوں کا مناسب انتظام موجود ہے۔
+  </p>
+  
+  <h4>🏫 Examination Hall</h4>
+  <p>
+    امتحانات کے دوران اسکول میں ایک بڑا Examination Hall استعمال کیا جاتا ہے، جس میں ایک وقت میں تقریباً 100 سے زائد طلبہ امتحان دے سکتے ہیں۔
+    ہال میں CCTV کیمرے، پنکھے، مناسب روشنی، اور نگرانی کا نظام موجود ہے تاکہ امتحان شفاف طریقے سے لیا جا سکے۔
+  </p>
+</div></p>
+  </div>
+
+  <!-- Gallery Section -->
+  <div id="gallery" class="section hidden gallery">
+    <h3>سکول گیلری</h3>
+    <img src="https://inner-silver-t33n8lb5mu.edgeone.app/FB_IMG_1762771079909.jpg">
+    <img src="https://zoophagous-maroon-yfeuupou4v.edgeone.app/FB_IMG_1762771422758.jpg">
+    <img src="https://sanishtech.com/i/6911ccbc1ad1e-1762774204.jpg">
+    <img src="https://sanishtech.com/i/6911cd2675187-1762774310.jpg">
+    <img src="https://sanishtech.com/i/6911cd53ae18e-1762774355.jpg">
+    <img src="https://sanishtech.com/i/6911cda70b284-1762774439.jpg">
+    <img src="https://sanishtech.com/i/6911cd7e634db-1762774398.jpg">
+    <img src="https://sanishtech.com/i/6911ce336afea-1762774579.jpg">
+    <img src="https://sanishtech.com/i/6911ce099bca5-1762774537.jpg">
+    <img src="https://sanishtech.com/i/6911cdeee0902-1762774510.jpg">
+    <img src="https://sanishtech.com/i/6911cef48305c-1762774772.jpg">
+    <img src="https://sanishtech.com/i/6911ced9a3214-1762774745.jpg">
+    <img src="https://sanishtech.com/i/6911cec3a1456-1762774723.jpg">
+    <img src="https://sanishtech.com/i/6911ceb4876bf-1762774708.jpg">
+    <img src="https://sanishtech.com/i/6911ce975959b-1762774679.jpg">
+    <img src="https://sanishtech.com/i/6911cfdc781c2-1762775004.jpg">
+    <img src="https://sanishtech.com/i/6911cf82cfb38-1762774914.jpg">
+    <img src="https://sanishtech.com/i/6911cf6de5a19-1762774893.jpg">
+  </div>
+
+  <!-- WhatsApp and Facebook buttons -->
+  <a href="https://wa.me/923329165065?text=Hello!%20I%20want%20to%20know%20about%20your%20school." class="whatsapp-button" target="_blank">💬</a>
+  <a href="https://www.facebook.com/ghssasbanr?mibextid=ZbWKwL" class="facebook-button" target="_blank">📘</a>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('.section').forEach(sec => sec.classList.add('hidden'));
+      document.getElementById(id).classList.remove('hidden');
+    }
+  </script>
+
+</body>
+</html>
